@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AlbumCardList from './components/album-card-list'
+import AlbumCardList from './components/album-card-list-fun'
 import AlbumPhotoList from './components/album-photo-list'
 import Clock from './Clock'
 import NameForm from './NameForm'
@@ -35,7 +35,8 @@ class App extends Component {
         <Clock />
         <NameForm />
         
-        <AlbumPhotoList />
+        <AlbumCardList/>
+        {/* <AlbumPhotoList /> */}
 
         
       </div>
